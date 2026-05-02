@@ -35,7 +35,6 @@ public class FileScan {
 
             selectedFile = chooser.getSelectedFile();
         }
-
         try (BufferedReader br = new BufferedReader(new FileReader(selectedFile))) {
             String line;
             String[] words;
